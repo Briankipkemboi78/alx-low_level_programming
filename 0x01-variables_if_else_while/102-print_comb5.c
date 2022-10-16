@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - create 2 pairs of number
+ * main - Main block
+ * Desccription: Create 2 pairs of numbers
  * Return: 0
  */
 int main(void)
@@ -18,6 +19,7 @@ int main(void)
 				putchar(i % 10 + 48);
 				putchar(' ');
 				putchar(j / 10 + 48);
+				putchar(j % 10 + 48);
 
 				if (i * 100 + j != 9899)
 				{
