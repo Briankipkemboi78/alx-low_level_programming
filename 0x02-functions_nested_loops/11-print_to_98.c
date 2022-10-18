@@ -2,11 +2,11 @@
 #include <stdio.h>
 
 /**
- *print_to_98 = prints from n to 98
- *
- *Description : n to 98
- *
- *Return void
+ *print_to_98 - prints from n to 98
+ * 
+ *Description: n to 98
+ * 
+ *Return: void
  *
  *@n:input
  */
@@ -47,6 +47,5 @@ void print_to_98(int n)
 				printf("%d\n", i);
 			}
 		}
-
 	}
 }
