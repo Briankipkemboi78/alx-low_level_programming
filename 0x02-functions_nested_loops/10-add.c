@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- *add - add two digits together
+ *add - add two integers
  *
- *Description: x+y
+ *Description:a+b
  *
- *@a:input
+ *@x:input
  *
- *@b:input
+ *@y:input
  *
  *Return:sum of input int
  *
