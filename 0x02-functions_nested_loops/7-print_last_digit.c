@@ -4,23 +4,24 @@
  *print_last_digit - prints last digit
  *
  *@n:input
- *Description: prints last value
  *
- *Return:returns last digit
+ *Description: prints last digit
+ *
+ *Return: returns last value
  *
  */
 int print_last_digit(int n)
 {
-	int l;
-	
+	int last;
+
 	if (n >= 0)
 	{
-		l = n % 10;
+		last = n % 10;
 	}
 	else if (n < 0)
 	{
-		l = -(n % 10);
+		last = -(n % 10);
 	}
-	_putchar('0' + l);
-	return (l);
+	_putchar('0' + last);
+	return (last);
 }
