@@ -7,6 +7,7 @@
  *
  *Return: 1 - lowercase 0 - otherwise
  *
+ *@c:input
  */
 int _islower(int c)
 {
@@ -18,4 +19,5 @@ int _islower(int c)
 	{
 		return (0);
 	}
+
 }
