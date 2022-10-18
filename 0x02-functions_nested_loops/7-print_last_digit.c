@@ -4,16 +4,15 @@
  *print_last_digit - prints last digit
  *
  *@n:input
+ *Description: prints last value
  *
- *Description: prints last digit
- *
- *Return: returns the last digit
+ *Return:returns last digit
  *
  */
 int print_last_digit(int n)
 {
 	int l;
-
+	
 	if (n >= 0)
 	{
 		l = n % 10;
