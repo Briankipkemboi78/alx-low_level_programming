@@ -1,19 +1,20 @@
 #include "main.h"
 
 /**
- * print_alphabet: prints a to z
+ *print_alphabet - print a-z
  *
- * Description: prints the alphabets in lowercase followed by a newline
+ *Description: prints the alphabet in lowercase followed by a new line
  *
- * Return: void
+ *Return:void
+ *
  */
 void print_alphabet(void)
 {
-	char at;
+	char ch;
 
-	for (at = 'a'; at <= 'z'; at++)
+	for (ch = 'a'; ch <= 'z'; ch++)
 	{
-		_putchar(at);
+		_putchar(ch);
 	}
 	_putchar('\n');
 }
