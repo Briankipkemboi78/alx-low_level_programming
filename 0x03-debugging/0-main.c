@@ -1,11 +1,8 @@
 #include "main.h"
+
 /**
- *main - tests function with zero
- *
- *Description: testing with zero
- *
- *Return:return zero(success)
- *
+ *main - tests function that prints if integer is positive of negative
+ *Return: 0
  */
 int main(void)
 {
