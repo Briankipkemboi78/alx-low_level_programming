@@ -1,13 +1,10 @@
-#include "main.h"
 #include <stdio.h>
 
 /**
- * fizz_buzz - Fizz for multiples of 3 and Buzz for multiples of 5 FizzBuzz for both
- *
- *
- * Return: Always 0
- */
-
+* fizz_buzz - Fizz for multiples of 3 and Buzz for multiples of 5 FizzBuzz for both
+*
+* Return: Always 0
+*/
 int main(void)
 {
 	int x = 1;
@@ -30,7 +27,6 @@ int main(void)
 		{
 			printf("%d", x);
 		}
-
 		if (x != 100)
 		{
 		printf(" ");
