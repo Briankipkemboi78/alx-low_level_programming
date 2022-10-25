@@ -1,1 +1,1 @@
-This is to understand the basics of C
+Its time to get hold of the bugs in your code

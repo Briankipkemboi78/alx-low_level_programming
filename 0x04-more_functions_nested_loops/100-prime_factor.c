@@ -1,23 +1,23 @@
 #include <stdio.h>
 
 /**
- * main - calculate largets prime of 612852475143
- *
- * Return : Success Always
- */
+* main - calculate largest prime of 612852475143
+*
+* Return : Success Always
+*/
 
 int main(void)
 {
 	long int x = 612852475143;
-	long int pn;
+	long int py;
 
-	for (pn = 2; pn < x; pn++)
-{
-		if (x % pn == 0)
+	for (py = 2; py < x; py++)
+	{
+		if (x % py == 0)
 		{
-			x = x / pn;
+			x = x / py;
 		}
 	}
-	printf("%id\n", pn);
+	printf("%ld\n", py);
 	return (0);
 }
