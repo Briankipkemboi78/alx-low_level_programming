@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-*puts - prints even characters of a string
+*puts2 - prints even characters of a string
 *
 *@str:input
 *
