@@ -1,1 +1,1 @@
-Its time to get hold of the bugs in your code
+This is to ensure pointers are well understood
