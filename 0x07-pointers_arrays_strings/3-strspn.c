@@ -2,14 +2,14 @@
 #include <stdio.h>
 
 /**
-*_strspn - Get the length of the prefix substring 
-*
-*@s: character to print
-*
-*@accept: input character
-*
-*Return: unsigned int
-*/
+ * _strspn - Get the length of a prefix substring
+ *
+ * @s: The character to print
+ *
+ * @accept: Character
+ *
+ * Return: unsigned int
+ */
 
 unsigned int _strspn(char *s, char *accept)
 {
@@ -22,6 +22,9 @@ unsigned int _strspn(char *s, char *accept)
 			if (accept[j] == '\0')
 				return (i);
 		}
+
 	}
+
 	return (i);
+
 }
