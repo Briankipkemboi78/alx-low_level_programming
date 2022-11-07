@@ -1,31 +1,35 @@
-#include <stdlib.h>
 #include <stdio.h>
+#include <stdlib.h>
+#include "main.h"
 
 /**
-*main - multiplies two numbers
+*main - program that prints product of two integers
 *
-*@argc:arguments count
-*@argv:arguments vector
+*@argc: argument count
+*@argv: argument vector
 *
 *Return: 0
 *
 */
+
 int main(int argc, char *argv[])
 {
-	int product = 0;
-	int x, y;
+	int i, j;
 
-	if (argc == 3)
+	if (argc == 1 || argc == 2)
 	{
-		x = atoi(argv[1]);
-		y = atoi(argv[2]);
-		product = x * y;
-		printf("%d\n", product);
-		return (0);
+		printf("Error\n");
+		return (1);
 	}
 	else
 	{
-		printf("Err\n")[D[D[D[D[D[Cor\n");
-		return (1);
+		j = 1;
+
+[A[A[B[3~[3~[C[C[C[C[C[C[C[C[C[C
+[A[		for (i = 1; i < 3; i++)
+		j *= atoi(argv[i]);
+
+		printf("%d\n", j);
 	}
+	return (0);
 }
