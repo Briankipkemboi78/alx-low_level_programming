@@ -1,7 +1,4 @@
-
-73 lines (61 sloc)  1.09 KB
-
-#include "holberton.h"
+#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
