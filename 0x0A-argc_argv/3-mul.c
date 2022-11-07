@@ -25,8 +25,7 @@ int main(int argc, char *argv[])
 	{
 		j = 1;
 
-[A[A[B[3~[3~[C[C[C[C[C[C[C[C[C[C
-[A[		for (i = 1; i < 3; i++)
+		for (i = 1; i < 3; i++)
 		j *= atoi(argv[i]);
 
 		printf("%d\n", j);
