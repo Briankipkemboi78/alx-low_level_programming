@@ -1,4 +1,4 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
  * _strcpy - Copy strings from source arr to destination arr
