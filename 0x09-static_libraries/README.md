@@ -1,1 +1,1 @@
-Static files
+This is to ensure statics are understood
