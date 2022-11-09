@@ -7,91 +7,31 @@
  *
  *Return:int
  */
-int word_len(char *str)
+void print_tab(char **tab)
 {
-	int i = 0, len = 0;
+    int i;
 
-	while (*(str + i) && *(str + i) != ' ')
-	{
-		len++;
-		i++;
-	}
-	return (len);
+    for (i = 0; tab[i] != NULL; ++i)
+    {
+        printf("%s\n", tab[i]);
+    }
 }
-/**
- *word_count - counts the number of words
- *
- *@str:input
- *
- *Return:(no. of words)
- *
- */
-int word_count(char *str)
-{
-	int i = 0, len = 0, count = 0;
 
-	for (i = 0; *(str + i); i++)
-	{
-		len++;
-	}
-	for (i = 0; i < len; i++)
-	{
-		if (*(str + i) != ' ')
-		{
-			count++;
-			i += word_len(str + i);
-		}
-	}
-	return (count);
-}
 /**
- *strtow - splits a string into words
+ * main - check the code for ALX School students.
  *
- *@str:input
- *
- *Return:0 - success
- *
+ * Return: 1 if an error occurred, 0 otherwise
  */
-char **strtow(char *str)
+int main(void)
 {
-	int i, words, w, letters, l;
-	char **p;
+    char **tab;
 
-	if (str == NULL || str[0] == '\0')
-	{
-		return (NULL);
-	}
-	words = word_count(str);
-	if (words == 0)
-	{
-		return (NULL);
-	}
-	p = malloc(sizeof(char *) * (words + 1));
-	if (p == NULL)
-	{
-		return (NULL);
-	}
-	for (i = 0; i < words; i++)
-	{
-		while (*(str + w) == ' ')
-		{
-			w++;
-		}
-		letters = word_len(str + w);
-		p[i] = malloc(sizeof(char) * (letters + 1));
-		if (p[i] == NULL)
-		{
-			for (; i >= 0; i--)
-				free(p[i]);
-			free(p);
-			return (NULL);
-		}
-		for (l = 0; l < letters; l++)
-		{
-			p[i][l] = str[w++];
-		}
-		p[i][l] = '\0';
-	}
-	p[i] = NULL;
-	return (p);
+    tab = strtow("Talk is cheap. Show me the code.");
+    if (tab == NULL)
+    {
+        printf("Failed\n");
+        return (1);
+    }
+    print_tab(tab);
+    return (0);
 }
