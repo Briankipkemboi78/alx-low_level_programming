@@ -1,10 +1,10 @@
 # C - Doubly linked lists
 
-Implementation of C doubly linked lists
+In this project, I learned about using doubly-linked lists in C.
 
 ## Tests :heavy_check_mark:
 
-* [tests](./tests): Folder of test files. 
+* [tests](./tests): Folder of test files. Provided by Holberton School.
 
 ## Header File :file_folder:
 
@@ -85,6 +85,7 @@ and functions written for the project.
 * **9. Crackme4**
   * [100-password](./100-password): Text file containing the password for the
   [crackme4](https://github.com/holbertonschool/0x16.c) executable.
+  #### Use the following command on your terminal for your code to be checked currectly `echo -n "906609" > 102-result`
 
 * **10. Palindromes**
   * [102-result](./102-result): Text file containing the largest palindrome made from a
